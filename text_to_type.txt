@@ -1,0 +1,6 @@
+cat > /tmp/test.sh << __EOF__
+#!/bin/sh
+echo "My Test"
+ls -l /tmp
+__EOF__
+sh /tmp/test.sh
