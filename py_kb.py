@@ -33,7 +33,7 @@ def main():
     parser: argparse.ArgumentParser = argparse.ArgumentParser(description='pyget_chain')
     parser.add_argument('--infile', type=str, required=True, help='Input filename')
     parser.add_argument('--win_title', type=str, required=True, help='Window title')
-    parser.add_argument('--interval', type=float, default=0.05, help='Window title')
+    parser.add_argument('--interval', type=float, default=0.05, help='interval')
 
     args: argparse.Namespace = parser.parse_args()
 
